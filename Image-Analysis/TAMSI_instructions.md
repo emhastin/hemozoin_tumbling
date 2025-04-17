@@ -3,7 +3,7 @@
 ## Before running this script:
 1. _Install **MATLAB 2023b** (or recent version) including **Image Processing Toolbox**._
 
-2. _Install **Java** on your computer._
+2. _Install **Java** on computer._
 
 3. _Download the **Bio-formats MATLAB toolbox** (bfmatlab.zip) located here:
 https://www.mathworks.com/matlabcentral/fileexchange/129249-bioformats-image-toolbox._
