@@ -33,8 +33,8 @@ e = e*10^(-9);                   % converting deltaS from nm to m
 epsvec = e*ones(1,N);
                                  % r matrix = list of original coordinates in m
 r = p';                          % p' = correct orientation for r matrix
-IRX = fIRX(N,d,r);               % IRX = matrix of kinematic velocities of each small sphere (node)
-G = fmakeGregstv2(r,mu,epsvec);  % G = matrix of hydrodynamic velocities of each small sphere (node) using Regularized Stokeslet eqn
+IRX = MATLAB_fIRX(N,d,r);               % IRX = matrix of kinematic velocities of each small sphere (node)
+G = MATLAB_fmakeGregstv2(r,mu,epsvec);  % G = matrix of hydrodynamic velocities of each small sphere (node) using Regularized Stokeslet eqn
 RM = IRX'*inv(G)*IRX;            % RM = resistance matrix
 obj.MM = inv(RM);                % MM = mobility matrix, accounting for forces and torques on small spheres
 
