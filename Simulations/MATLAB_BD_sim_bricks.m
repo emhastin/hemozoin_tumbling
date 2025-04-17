@@ -140,7 +140,7 @@ for h = 1:n_hemozoin
     center_posz{h}(1) = radius/2*(-1+(2).*rand);
     hemo_CM{1,h}(1,:) = [center_posx{h}(1) center_posy{h}(1) center_posz{h}(1)];
         
-    hemo(h)=hemozoin_v11(e, d, mu, p, X,Y,Z) ;
+    hemo(h)=MATLAB_sim_hemozoin(e, d, mu, p, X,Y,Z) ;
 
 %      starting node locations
     p_r1{1,h}(:,1) = p(:,1) + center_posx{h}(1,1);
