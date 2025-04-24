@@ -1,4 +1,4 @@
-# TAMSI: Time-averaged mean-squared pixel intensity change
+# TAMSI: Time-averaged mean squared pixel intensity change
 
 ## Before running this script:
 1. _Install **MATLAB 2023b** (or recent version) including **Image Processing Toolbox**._
